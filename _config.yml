@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
+  name             : David Hollman
+  avatar           : "profile.jpg"
   bio              : "Research Scientist at Sandia National Labs.  Concurrent programming models designer, C++ standards committee member, and overall opinionated person."
   location         : "Livermore, California"
   employer         : "Sandia National Labs"
@@ -176,15 +176,18 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
+    output: false
+    permalink: /:collection/:path/
+  proposals:
     output: true
     permalink: /:collection/:path/
 
@@ -222,6 +225,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _proposals
+  - scope:
+      path: ""
+      type: proposals
     values:
       layout: single
       author_profile: true

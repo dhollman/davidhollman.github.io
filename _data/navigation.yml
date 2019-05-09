@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "C++ Proposals"
+    url: /proposals/
 
   - title: "Talks"
     url: /talks/    
