@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "David Hollman"
-  avatar           : "profile.jpg"
+  avatar           : "profile_small.jpg"
   bio              : "Research Scientist at Sandia National Labs.  Concurrent programming models designer, C++ standards committee member, and overall opinionated person."
   location         : "Livermore, California"
   employer         : "Sandia National Labs"
