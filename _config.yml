@@ -75,12 +75,12 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-139938808-1"
 
 
 # Site Author
 author:
-  name             : David Hollman
+  name             : "David Hollman"
   avatar           : "profile.jpg"
   bio              : "Research Scientist at Sandia National Labs.  Concurrent programming models designer, C++ standards committee member, and overall opinionated person."
   location         : "Livermore, California"
